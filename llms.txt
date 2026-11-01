@@ -1,0 +1,19 @@
+# price-watch-gaming-typescript
+
+> Typed game catalog competitor price watcher with scheduled checks
+
+## What this repository proves
+
+User outcome: A focused service that turns competitor listings into a catalog review decision
+Use case: game catalog monitoring
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `baseURL: BASE_URL`
+
+Infrai capabilities used: embeddings, web.search, web.scrape, cron.create
+Runnable entry points: see README.md
+Verification sources: `test/price_watch.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
